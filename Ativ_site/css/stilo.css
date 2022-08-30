@@ -1,0 +1,254 @@
+*
+{
+ margin: 0;
+ padding: 0;  
+ /*
+ font-family: 'Peddana', serif;
+ font-family: 'Timmana', sans-serif
+ */
+ font-family: 'Peddana', serif;
+font-family: 'Timmana', sans-serif;
+}
+
+/* Pagina Inicio */
+.barra{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: url(../img/fd.jpg) , linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9),rgba(4,9,30,0.9));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{width: 300px;
+
+}
+#menu {
+    flex: 1;
+    text-align: right;
+
+}
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+#menu ul li a{
+    color: #40bf2c;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+#menu ul li ::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #118CD9;
+    display: block;
+    margin: auto;
+    transition: 0.5;
+}
+.textotopo{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textotopo h1{
+    font-size: 62px;
+}
+.textotopo p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.botaotxt{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.botaotxt:hover{
+    border: 1px solid #ffffff;
+    background:#40bf2c ;
+    transition: 1s;
+
+}
+.text1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color:#000000 ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.textint1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.int1{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing:border-box;
+    transition: 0.3s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.int1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/* Pagina Sobre */
+.afliadas{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.afli1
+{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.afli1 img{
+    width: 100%;
+    display: block;
+}
+.textimg{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0 ;
+    transition: 0.3s;
+
+}
+.textimg:hover{
+    background: rgba(0, 255, 255, 0.7);
+}
+.textimg h3{
+    width: 100%;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    bottom: 0;
+    transform: translateX();
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    
+}
+.textimg:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+/* Pagina Cursos*/
+
+.cursos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+.imgcursos{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.imgcursos img{
+    width: 100%;
+    border-radius: 10px;
+}
+.imgcursos p {
+    padding: 0;
+
+
+}
+.imgcursos h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.rodape{
+    
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.rodape{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Contato */
+.barracontato{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/25550.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+
+.textcontato
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.intcontato{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.intcontato img{
+width: 10%;
+}
+
+.intcontato h1{
+    padding-top: 0;
+}
+.intcontato p{
+    padding: 15px 0 25px;
+}
